@@ -1,0 +1,28 @@
+name: Despliegue en Servidor al crear Tag
+
+on:
+  push:
+    tags:
+      # Este workflow se ejecuta solo cuando se sube cualquier tag (gtag)
+      - '*' 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del Código
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Necesario para obtener todas las etiquetas
+
+      - name: Despliegue SSH
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SERVER_IP }} # IP pública de tu router/DDNS
+          username: ruben # Usuario SSH de tu Orange Pi
+          key: ${{ secrets.SSH_PRIVATE_KEY }} # Clave privada del Secreto
+          port: 8822 # O el puerto SSH si lo cambiaste
+          script: |
+            # Establece la variable TAG_NAME y ejecuta el script de despliegue
+            TAG_NAME=${{ github.ref_name }} 
+            /home/ruben/deploy.sh
