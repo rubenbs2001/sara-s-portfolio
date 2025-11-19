@@ -6,7 +6,7 @@
     <div class="min-h-screen bg-gray-50 flex flex-col items-center">
         <header class="text-center mt-12 mb-8">
             <img src="/logo.png" alt="Sara Velázquez Logo" class="mx-auto mb-6 w-32 h-32 object-contain">
-            <h1 class="text-5xl font-bold text-gray-900 mb-4">Sara Velázquezzz</h1>
+            <h1 class="text-5xl font-bold text-gray-900 mb-4">Sara Velázquez</h1>
             <h2 class="text-2xl text-gray-700 mb-6">Interior Designer & Creative Visionary</h2>
             <p class="max-w-xl mx-auto text-gray-600">Transforming spaces into unique experiences. Discover my portfolio and
                 let’s create something beautiful together.</p>
