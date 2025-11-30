@@ -1,0 +1,49 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BF3FyUng.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/fonts/Lora-Bold.ttf": {
+    "file": "assets/Lora-Bold-EnVoNRt7.ttf",
+    "src": "resources/fonts/Lora-Bold.ttf"
+  },
+  "resources/fonts/Lora-BoldItalic.ttf": {
+    "file": "assets/Lora-BoldItalic-Lxr4jBCI.ttf",
+    "src": "resources/fonts/Lora-BoldItalic.ttf"
+  },
+  "resources/fonts/Lora-Italic.ttf": {
+    "file": "assets/Lora-Italic-B0AN4OBI.ttf",
+    "src": "resources/fonts/Lora-Italic.ttf"
+  },
+  "resources/fonts/Lora-Medium.ttf": {
+    "file": "assets/Lora-Medium-5-VwAdgt.ttf",
+    "src": "resources/fonts/Lora-Medium.ttf"
+  },
+  "resources/fonts/Lora-MediumItalic.ttf": {
+    "file": "assets/Lora-MediumItalic-DYKtpLnl.ttf",
+    "src": "resources/fonts/Lora-MediumItalic.ttf"
+  },
+  "resources/fonts/Lora-Regular.ttf": {
+    "file": "assets/Lora-Regular-D3dYsrbM.ttf",
+    "src": "resources/fonts/Lora-Regular.ttf"
+  },
+  "resources/fonts/Lora-SemiBold.ttf": {
+    "file": "assets/Lora-SemiBold-Beusc9tC.ttf",
+    "src": "resources/fonts/Lora-SemiBold.ttf"
+  },
+  "resources/fonts/Lora-SemiBoldItalic.ttf": {
+    "file": "assets/Lora-SemiBoldItalic-wVM1E9XM.ttf",
+    "src": "resources/fonts/Lora-SemiBoldItalic.ttf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
